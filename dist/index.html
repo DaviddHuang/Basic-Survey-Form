@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by FatButteredToast</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stysheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1 id="title">Spotify Survey Form</h1>
+    <p id="description"><em>Share your sounds, shape our playlist: Take our Spotify survey now!</em></p>
+    <form id="survey-form" method="post" action="https://google.ca/">
+      <fieldset>
+        <label id="name-label">Name<input id="name" placeholder="Enter your name" type="text" required/></label>
+        <label id="email-label">Email<input id="email" placeholder="Enter your Email" type="email" required/></label>
+        <label id="number-label">Age<input id="number" placeholder="Age" type="number" required min="13" max="120"/></label>
+        <label id="describe" class="help">What best describes you?</label>
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Full Time Job</option>
+          <option value="2">Full Time Student</option>
+          <option value="3">Prefer not to say</option>
+          <option value="4">Other</option>
+        </select>
+        <label id="recommned">Would you recommend Spotify to a friend?</label>
+        <label for="Absolute"><input class="inline" type="radio" name="recommend" value="rec"/>Absolutely</label>
+        <label for="Maybe"><input class="inline" type="radio" name="recommend" value="rec"/>Maybe</label>
+        <label for="Not-sure"><input class="inline" type="radio" name="recommend" value="rec"/>Not sure</label>
+        <label id="Favourite">What is your favourite thing about Spotify</label>
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Friend Activity</option>
+          <option value="2">Mobile Friendly App </option>
+          <option value="3">Great Music Options</option>
+        </select>
+        <label id="improve">What is your favourite genre of music? (check all that apply)</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Pop</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Rock</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Hip-Hop</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Rap</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Country</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Metal</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Classical</label>
+        <label id="improve"><input class="inline" type="checkbox" name="improve" value="imp"/>Other</label>
+        <label for="suggestions">Any comments or suggestions?</label>
+              <textarea id="suggestions" name="suggestions" rows="8" cols="30" placeholder="Enter your comment here..."></textarea>
+        <input type="submit" id="submit" value="Submit"/>
+      </fieldset>
+    </form>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
